@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css"href="/stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css"href="/stylesheets/style.css">
+    <script src="jquery/jquery.min.js"></script>
+    <!--<script src="routes/calculator.js"></script>-->
+    <script src="javascripts/calculator.js"></script>
+</head>
+<body>
+    <h1>Super Sweet Calculator</h1>
+    <div class="calculator">
+        <input type="number" id="firstNumber" />
+        <input type="number" id="secondNumber"/>
+        <div class="buttonOperators">
+            <br>
+            <button class="operators btn btn-warning" id="addition"> + </button>
+            <button class="operators btn btn-warning" id="subtraction"> - </button>
+            <button class="operators btn btn-warning" id="multiplication"> * </button>
+            <button class="operators btn btn-warning" id="division"> / </button>
+        </div>
+    <div>
+        <br>
+        <button class="equals btn btn-danger"> = </button>
+    </div>
+        <br>
+        <div class="finalResult text-center well"></div>
+    </div>
+</body>
+</html>
